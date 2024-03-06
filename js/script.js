@@ -13,19 +13,19 @@ Questo richiederà un minimo di ricerca.
 
 //alert('funziona ?');
 
-//chiedere al user il kilometro 
+//user desired km 
 let km = parseInt(prompt('Inserisci il numero di Chilometri che vuoi percorrere: '));
 console.log(km);
 
-//chiedere l'età del user
+//user age
 let age = parseInt(prompt("Inserisci l'eta del passeggero: "));
 console.log(age);
 
-//calcolo prezzo biglietto
+//ticket price
 let price = km * 0.21;
 console.log(price);
 
-//applicare sconti necessari
+//discount
 if (age < 18) {        //sconto 20% minorenni
     price *= 0.8;    
 }else if (age >= 65){      //sconto 40% per over 65
