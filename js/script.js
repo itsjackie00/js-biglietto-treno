@@ -28,4 +28,7 @@ console.log(price);
 //applicare sconti necessari
 if (eta < 18) {        //sconto 20% minorenni
     prezzo *= 0.8;    
+}else if (eta >= 65){      //sconto 40% per over 65
+    prezzo *= 0.6;
 }
+
