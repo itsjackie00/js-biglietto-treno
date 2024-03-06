@@ -26,9 +26,17 @@ let price = km * 0.21;
 console.log(price);
 
 //applicare sconti necessari
-if (eta < 18) {        //sconto 20% minorenni
-    prezzo *= 0.8;    
-}else if (eta >= 65){      //sconto 40% per over 65
-    prezzo *= 0.6;
+if (age < 18) {        //sconto 20% minorenni
+    price *= 0.8;    
+}else if (age >= 65){      //sconto 40% per over 65
+    price *= 0.6;
 }
 
+//format price in two decimals
+let priceFormattato = price.toFixed(2);
+console.log(priceFormattato);
+
+//message on webpage
+document.getElementById('price').innerHTML = `
+Il prezzo del biglietto è: ${priceFormattato} €
+`
