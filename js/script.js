@@ -20,3 +20,8 @@ console.log(km);
 //chiedere l'età del user
 let age = parseInt(prompt("Inserisci l'eta del passeggero: "));
 console.log(age);
+
+//calcolo prezzo biglietto
+let price = km * 0.21;
+console.log(price);
+
