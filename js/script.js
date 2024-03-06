@@ -25,3 +25,7 @@ console.log(age);
 let price = km * 0.21;
 console.log(price);
 
+//applicare sconti necessari
+if (eta < 18) {        //sconto 20% minorenni
+    prezzo *= 0.8;    
+}
