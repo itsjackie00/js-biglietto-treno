@@ -11,5 +11,12 @@ L'output del prezzo finale va messo fuori in forma umana
 Questo richiederà un minimo di ricerca.
 */
 
+//alert('funziona ?');
 
-alert('funziona ?');
+//chiedere al user il kilometro 
+let km = parseInt(prompt('Inserisci il numero di Chilometri che vuoi percorrere: '));
+console.log(km);
+
+//chiedere l'età del user
+let age = parseInt(prompt("Inserisci l'eta del passeggero: "));
+console.log(age);
